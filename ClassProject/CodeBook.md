@@ -95,8 +95,8 @@ to rearrange the row order as it should be. Finally all working columns are
 dropped from the data frame and the activities column is added to the data
 frame created in step 3.
 
-**5. From the data set in step 4, creates a second, independent tidy data set** 
-with the average of each variable for each activity and each subject.
+**5. From the data set in step 4, creates a second, independent tidy data set 
+with the average of each variable for each activity and each subject.**
 
 This final step requires us to take the mean for the features by both activity
 AND by subject.
