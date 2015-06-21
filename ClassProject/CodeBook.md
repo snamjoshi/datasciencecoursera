@@ -8,7 +8,7 @@ produces the tidy data required by the assignment as well as a codebook for all
 variables contained in the script.
 
 ## CODEBOOK
-** DATA FILES LOADED **
+**DATA FILES LOADED**
 * `activity_labels`: The activity number (1-6) and corresponding description of
 the activity.
 
@@ -26,7 +26,7 @@ the activity.
 
 * `Y_train`: The activity performed by the subject in the training data set
 
-** VARIABLES CREATED **
+**VARIABLES CREATED**
 
 * `fullData`: All measurements for the test and training data bound by rows
 
