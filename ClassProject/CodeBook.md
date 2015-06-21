@@ -1,4 +1,4 @@
-## Getting and Cleaning Data Class Project
+# Getting and Cleaning Data Class Project
 This file explains the script titled run_analysis.R
 
 For this class project, we were asked to take data from the UCI HAR dataset and
@@ -7,8 +7,8 @@ we learned in Week 1 of the course. Below is an explanation of how my script
 produces the tidy data required by the assignment as well as a codebook for all
 variables contained in the script.
 
-# CODEBOOK
-** DATA FILES LOADED
+## CODEBOOK
+** DATA FILES LOADED **
 * `activity_labels`: The activity number (1-6) and corresponding description of
 the activity.
 
@@ -26,7 +26,7 @@ the activity.
 
 * `Y_train`: The activity performed by the subject in the training data set
 
-** VARIABLES CREATED
+** VARIABLES CREATED **
 
 * `fullData`: All measurements for the test and training data bound by rows
 
@@ -41,7 +41,7 @@ sets
 
 * `cleanDat`: Melting and aggregating by mean producing the final tidy data set
 
-# DATA PROCESSING
+## DATA PROCESSING
 First, the working directory is set, external packages are loaded, and the data
 files are uploaded. For the test/training data, it was necessary to upload it
 using the "" separator in order to get the data to display correctly.
